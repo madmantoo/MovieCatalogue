@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mov</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tvshow">Serial TV</string>
+
+    <string name="movie_name">Nama Film</string>
+    <string name="movie_desc">Deskripsi Film</string>
+    <string name="movie_genre">Genre</string>
+    <string name="poster">Poster</string>
+    <string name="banner">Banner</string>
+    <string name="tv_name">Nama Serial TV</string>
+    <string name="tv_duration">Durasi</string>
+    <string name="tv_direction">Sutradara Serial TV</string>
+    <string name="tv_cast">Pemain Serial TV</string>
+
+    <string name="desc">Deskripsi</string>
+    <string name="cast">Pemain Film</string>
+    <string name="director">Sutradara</string>
+    <string name="wishlist">Favorit</string>
+    <string name="rate">Nilai</string>
+    <string name="succes_wish">Berhasil Favorit</string>
+    <string name="succes_rate">Berhasil Menilai</string>
+    <string name="back">Kembali</string>
+    <string name="change_language">Ganti Bahasa</string>
+</resources>

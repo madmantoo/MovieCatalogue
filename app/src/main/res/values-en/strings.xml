@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mov</string>
+    <string name="title_movie">Movie</string>
+    <string name="title_tvshow">TV Show</string>
+
+    <string name="movie_name">Movie Name</string>
+    <string name="movie_desc">Movie Description</string>
+    <string name="movie_genre">Genre</string>
+    <string name="poster">Poster</string>
+    <string name="banner">Banner</string>
+    <string name="tv_name">TV Show Name</string>
+    <string name="tv_duration">TV Show Duration</string>
+    <string name="tv_direction">TV Show Director</string>
+    <string name="tv_cast">TV Show Cast</string>
+
+    <string name="desc">Description</string>
+    <string name="cast">Cast</string>
+    <string name="director">Director</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="rate">Rate</string>
+    <string name="succes_wish">Succes Wishlist</string>
+    <string name="succes_rate">Succes Rate</string>
+    <string name="back">Back</string>
+    <string name="change_language">Change Language</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Mov</string>
+    <string name="title_movie">Movie</string>
+    <string name="title_tvshow">TV Show</string>
+
+    <string name="movie_name">Nama Film</string>
+    <string name="movie_desc">Deskripsi Film</string>
+    <string name="movie_genre">Genre</string>
+    <string name="poster">Poster</string>
+    <string name="banner">Banner</string>
+    <string name="tv_name">Nama Serial TV</string>
+    <string name="tv_duration">Durasi</string>
+    <string name="tv_direction">Sutradara</string>
+    <string name="tv_cast">Pemain Film</string>
+
+    <string name="desc">Deskripsi</string>
+    <string name="cast">Pemain Film</string>
+    <string name="director">Sutradara</string>
+    <string name="wishlist">Favorit</string>
+    <string name="rate">Rating</string>
+    <string name="succes_wish">Succes Wishlist</string>
+    <string name="succes_rate">Succes Rate</string>
+    <string name="back">Back</string>
+    <string name="change_language">Ganti Bahasa</string>
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgPrimary"
+    android:scrollbars="none"
+    tools:context=".DetailMovieActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/m_header"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@string/banner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/m_poster"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="@string/poster"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/m_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/mmedium"
+            android:text="@string/movie_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/m_poster"
+            app:layout_constraintTop_toBottomOf="@+id/m_header" />
+
+        <TextView
+            android:id="@+id/m_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/mlight"
+            android:text="@string/movie_genre"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/m_poster"
+            app:layout_constraintTop_toBottomOf="@+id/m_name" />
+
+
+        <TextView
+            android:id="@+id/m_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/mlight"
+            android:text="@string/tv_duration"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/m_poster"
+            app:layout_constraintTop_toBottomOf="@+id/m_genre" />
+
+
+        <Button
+            android:id="@+id/btn_favorit"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_btn"
+            android:drawableStart="@drawable/baseline_favorite_border_black_18dp"
+            android:fontFamily="@font/mmedium"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="@string/wishlist"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/m_poster" />
+
+        <Button
+            android:id="@+id/btn_rate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_btn"
+            android:drawableStart="@drawable/baseline_star_border_black_18dp"
+            android:fontFamily="@font/mmedium"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:text="@string/rate"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_favorit"
+            app:layout_constraintStart_toEndOf="@+id/btn_favorit"
+            app:layout_constraintTop_toTopOf="@+id/btn_favorit"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/txt"
+            style="@style/tvTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_favorit" />
+
+        <TextView
+            android:id="@+id/m_desc"
+            style="@style/tvBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/tvTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/director"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/m_desc" />
+
+        <TextView
+            android:id="@+id/m_direction"
+            style="@style/tvBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_direction"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/tvTop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cast"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/m_direction" />
+
+        <TextView
+            android:id="@+id/m_cast"
+            style="@style/tvBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/tv_cast"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
